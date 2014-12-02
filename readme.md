@@ -21,6 +21,31 @@ and has advanced features like dropout. so it is naturally a good
 choice, even over caffe.
 
 
+Paper
+====
+
+It became clear that the paper 'Scaling Large Learning Problems
+with Hard Parallel Mixtures' is an updated version of the old one.
+(In case you need to find this, it is written down in a few lines at
+the end of the introduction, without any citation)-- but the new one
+more or less states that replacing the SVM experts with MLPs yields
+better results. This is actually contrary to what i would like to have.
+This better is not really accuracy-wise, but time-wise. One need
+still to compare the results with the comment on the old paper,
+where the whole setup is just randomized trees. The authors there
+claim to be better then Mixture of Experts.
+While searching i found also 
+'Fast modular network implementation for support vector machines'
+by GB Huang, KZ Mao, CK Siew, which might also be very interesting.
+
+
+
+Some words on PyLearn2
+===================
+
+- There seem to exist a SVM model under pylearn2/models/svm.py.
+i did only see that towards the end of the day, so i ignore it basically.f
+
 
 Problems
 =======
@@ -44,6 +69,9 @@ On the other hand, covertype was used, and the LIBSVM data set
 has the very same multiclass to binary division. Both seem to 
 differ in scaling, the LIBSVM dataset is not scaled, while the paper
 says that each feature was scaled to [0,1]. 
+
+Numbers95 were used, but this is another proprietary data set,
+which needs some kind of agreement to be used.
 
 
 
