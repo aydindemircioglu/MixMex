@@ -75,11 +75,11 @@ Other Knowledge
 
 There are couple of other Python NN software Implementations:
 
-*Hebel (based on Theano, seems to need GPU?)
-*PDNN (also based on Theano, but seems to be smaller)
-*PyBrain (no modern things like Dropout, said to be very slow)
-*Caffe (only real alternative to Theano, as it seems, matter of taste)
-*breze
+* Hebel (based on Theano, seems to need GPU?)
+* PDNN (also based on Theano, but seems to be smaller)
+* PyBrain (no modern things like Dropout, said to be very slow)
+* Caffe (only real alternative to Theano, as it seems, matter of taste)
+* breze
 	
 For parameter-tuning the following libraries were found:
 
@@ -99,19 +99,19 @@ Large Dataset sites
 
 A list of pages that might have a lot of different LARGE data sets (or infos):
 
--https://www.quandl.com/
--http://aws.amazon.com/datasets
--https://www.google.com/cse/publicurl?cx=002720237717066476899:v2wv26idk7m
--http://academictorrents.com/
--http://commoncrawl.org/
--http://lemire.me/blog/archives/2012/03/27/publicly-available-large-data-sets-for-database-research/
--http://www.kdnuggets.com/datasets/index.html
--http://www.datawrangling.com/some-datasets-available-on-the-web/
--http://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public
--https://delicious.com/tag/dataset
--http://labrosa.ee.columbia.edu/millionsong/
--http://grouplens.org/datasets/
--http://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public/answers/784181
+- https://www.quandl.com/
+- http://aws.amazon.com/datasets
+- https://www.google.com/cse/publicurl?cx=002720237717066476899:v2wv26idk7m
+- http://academictorrents.com/
+- http://commoncrawl.org/
+- http://lemire.me/blog/archives/2012/03/27/publicly-available-large-data-sets-for-database-research/
+- http://www.kdnuggets.com/datasets/index.html
+- http://www.datawrangling.com/some-datasets-available-on-the-web/
+- http://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public
+- https://delicious.com/tag/dataset
+- http://labrosa.ee.columbia.edu/millionsong/
+- http://grouplens.org/datasets/
+- http://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public/answers/784181
 	
 	
 	
