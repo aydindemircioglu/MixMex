@@ -42,13 +42,13 @@ Also see the thesis of Collobert for maybe some more details-- and
 now, that i browsed through it, one can read:
 
 	The generalization performance of a hard mixture with a local gater were
-in all cases worst than what we obtained with a global gater, especially with
-SVM experts. Obviously, a local gater is much less powerful than a global
-gater for re-distributing examples to the experts. Moreover even if we were
-able to obtain reasonable generalization results using the hard mixture with a
-local gater in a short time, we must admit that tuning the Gaussian Mixture
-Models in the local gater is very tricky compared to the tuning of the MLP
-global gater. In the end, the global gater seems to be the way to go...
+	in all cases worst than what we obtained with a global gater, especially with
+	SVM experts. Obviously, a local gater is much less powerful than a global
+	gater for re-distributing examples to the experts. Moreover even if we were
+	able to obtain reasonable generalization results using the hard mixture with a
+	local gater in a short time, we must admit that tuning the Gaussian Mixture
+	Models in the local gater is very tricky compared to the tuning of the MLP
+	global gater. In the end, the global gater seems to be the way to go...
 
 what the?...
 
