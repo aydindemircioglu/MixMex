@@ -75,20 +75,20 @@ Other Knowledge
 
 There are couple of other Python NN software Implementations:
 
--Hebel (based on Theano, seems to need GPU?)
--PDNN (also based on Theano, but seems to be smaller)
--PyBrain (no modern things like Dropout, said to be very slow)
--Caffe (only real alternative to Theano, as it seems, matter of taste)
--breze
+*Hebel (based on Theano, seems to need GPU?)
+*PDNN (also based on Theano, but seems to be smaller)
+*PyBrain (no modern things like Dropout, said to be very slow)
+*Caffe (only real alternative to Theano, as it seems, matter of taste)
+*breze
 	
 For parameter-tuning the following libraries were found:
 
--Hyperopt and its wrapper for sklearn, Hyperopt-sklearn
--HPOlib
--Spearmint
--BayesOpt
--SMAC
--REMBO
+* Hyperopt and its wrapper for sklearn, Hyperopt-sklearn
+* HPOlib
+* Spearmint
+* BayesOpt
+* SMAC
+* REMBO
 	
 Some minor infos are on FastML.com?
 
