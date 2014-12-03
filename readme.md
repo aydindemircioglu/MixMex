@@ -58,7 +58,7 @@ Some words on PyLearn2
 ===================
 
 - There seem to exist a SVM model under pylearn2/models/svm.py.
-i did only see that towards the end of the day, so i ignore it basically.f
+i did only see that towards the end of the day, so i ignore it basically.
 
 
 Problems

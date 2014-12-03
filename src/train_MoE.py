@@ -16,34 +16,6 @@ maxIter = 128
 
 
 
-def getDataset(dataset, data_dir = "/home/drunkeneye/lab/data", verbose = True):
-	# first try to load the data 'directly'
-	try:
-		filePath = os.path.join(data_dir, dataset, dataset)
-		if verbose:
-			print("Trying to load data set from {}". format(filePath))
-		X, y = load_svmlight_file(filePath)
-		X = np.asarray(X.todense())
-		if verbose:
-			print ("Loaded from {}". format( filePath))
-		return DataSet.DataSet(X, y, dataset)
-	except:
-		pass
-	
-	# next try
-	try:
-		filePath = os.path.join(data_dir, dataset, dataset + ".combined.scaled")
-		if verbose:
-			print("Trying to load data set from {}". format(filePath))
-		X, y = load_svmlight_file(filePath)
-		X = np.asarray(X.todense())
-		if verbose:
-			print ("Loaded from {}". format( filePath))
-		return DataSet(X, y, dataset)
-	except:
-		pass
-
-
 def expertWeight (x, i):
 	w = 0
 	p = w * x

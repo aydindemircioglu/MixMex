@@ -1,6 +1,6 @@
 import os
 import pylearn2
-path = os.path.join(pylearn2.__path__[0], 'scripts', 'tutorials', 'multilayer_perceptron', 'mlp_tutorial_part_2.yaml')
+path = os.path.join('example_MLP.yaml')
 with open(path, 'r') as f:
     train = f.read()
 hyper_params = {'train_stop' : 50000,
