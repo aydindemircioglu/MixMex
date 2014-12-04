@@ -1,5 +1,14 @@
+#!/usr/bin/python
+
+## copyright © 2014 by aydin demircioglu <mixmax /at/ cloned.de>
+## License: WTFPL <http://sam.zoy.org/wtfpl>
+##   0. You just DO WHAT THE FUCK YOU WANT TO.
+##
+## License: MIT (rough WTFPL equivalent)
+
 import os
 import pylearn2
+
 path = os.path.join('example_MLP.yaml')
 with open(path, 'r') as f:
     train = f.read()

@@ -1,6 +1,11 @@
 #!/usr/bin/python
 
-#from pylearn2.datasets.sparse_dataset import SparseDataset
+## copyright © 2014 by aydin demircioglu <mixmax /at/ cloned.de>
+## License: WTFPL <http://sam.zoy.org/wtfpl>
+##   0. You just DO WHAT THE FUCK YOU WANT TO.
+##
+## License: MIT (rough WTFPL equivalent)
+
 
 import os
 import numpy as np

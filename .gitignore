@@ -32,3 +32,4 @@ stash/**
 .kdev4/**
 .kdev4
 datasets.small
+*.pyc

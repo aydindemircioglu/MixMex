@@ -1,4 +1,4 @@
-!obj:svmLearner.SVMLearner {
+!obj:svm.SVM {
     "C": 1.0,
     "gamma": 1.0,
 }

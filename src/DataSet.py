@@ -1,3 +1,10 @@
+#!/usr/bin/python
+
+## copyright (C) 2014 by aydin demircioglu <mixmax /at/ cloned.de>
+## License: WTFPL <http://sam.zoy.org/wtfpl>
+##   0. You just DO WHAT THE FUCK YOU WANT TO.
+##
+## License: MIT (rough WTFPL equivalent)
 
 from sklearn.cross_validation import train_test_split
 from sklearn.datasets import load_svmlight_file
@@ -29,8 +36,9 @@ class DataSet:
 
 
 	def normalize(self):
-		self.X = normalize(X)
-		self.X_test = normalize(X_test)
+		self.X = preprocessing.normalize(self.X)
+		if (self.X_test != None):
+			self.X_test = preprocessing.normalize(self.X_test)
 
 		
 	def scale(self):
@@ -73,13 +81,16 @@ class DataSet:
 			filePath = os.path.join(data_dir, dataset, dataset + ".combined.scaled")
 			if verbose:
 				print("  Trying to load data set from {}". format(filePath))
-			X, y = load_svmlight_file(filePath)
-			X = np.asarray(X.todense())
+			self.X, self.y = load_svmlight_file(filePath)
+			self.X = np.asarray(self.X.todense())
 			if verbose:
 				print ("    Loaded from {}". format( filePath))
 			return 
 		except:
 			pass
+		
+	def get_design_matrix (self):
+			return DenseDesignMatrix (X = self.X, y = self.y)
 
 #    y = y.reshape(y.shape[0], 1)
 #			return DenseDesignMatrix (X=X, y=y)

@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+## copyright © 2014 by aydin demircioglu <mixmax /at/ cloned.de>
+## License: WTFPL <http://sam.zoy.org/wtfpl>
+##   0. You just DO WHAT THE FUCK YOU WANT TO.
+##
+## License: MIT (rough WTFPL equivalent)
+
 import pylearn2.config.yaml_parse as yaml_parse
 from sklearn.metrics import f1_score
 from sklearn import svm, grid_search, datasets
@@ -11,6 +17,9 @@ fp = open('example_SVM.yaml')
 model = yaml_parse.load(fp)
 print model
 fp.close()
+
+
+
 
 
 print ("Mixture of SVM Experts")
